@@ -1,0 +1,158 @@
+@use 'extras.scss' as e;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color: e.$prim;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-family: Butler;
+}
+
+h2 {
+    font-family: Lato;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: e.$btn;
+    color: #fff;
+    font-weight: 800;
+}
+
+.sec {
+    background: e.$btn-sec;
+    color: e.$txt;
+}
+
+@media screen and (min-width: 300px) {
+
+    button {
+        width: 30%;
+        padding: 7px 30px;
+    }
+
+    header {
+        padding: 20px 25px 10px;
+        background-image: linear-gradient(to bottom,
+                #070706 100%,
+                #070706 70%,
+                #070706 40%,
+                #030a03 10%,
+                #030a03 5%);
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 40px;
+        }
+    }
+
+    .hero {
+        color: #fff;
+        height: 600px;
+        background: url(/Images/hero.webp) no-repeat;
+        background-size: 100%;
+        padding: 20% 0 0 6%;
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 22px;
+            width: 80%;
+            margin-top: 15px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 25px;
+
+            p {
+                display: block;
+                font-size: 12px;
+            }
+        }
+
+        span {
+            font-size: 10px;
+            margin-top: 15px;
+        }
+    }
+
+    .menu {
+        margin-top: 50px;
+        padding: 0 25px 0;
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .items-wrapper {
+        width: 85%;
+        margin: 30px auto 0;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        button {
+            margin-top: 10px;
+            border-radius: 6px;
+            width: 40%;
+            padding: 12px 15px;
+        }
+    }
+
+    .item {
+        background-color: #fff;
+        border-radius: 10px;
+
+        h3 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .text {
+            padding: 15px 20px;
+
+            div {
+                background-color: #e5e5e5;
+                color: #747474;
+                display: inline-block;
+                padding: 4px 10px;
+                border-radius: 10%;
+                letter-spacing: 3px;
+                margin-right: 5px;
+                font-size: 14px;
+            }
+        }
+
+        span {
+            background-color: #ffa115;
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+        }
+    }
+}

@@ -34,6 +34,9 @@ button {
 }
 
 @media screen and (min-width: 300px) {
+    h2 {
+        font-size: 1.7rem;
+    }
 
     button {
         width: 30%;
@@ -99,10 +102,6 @@ button {
         margin-top: 50px;
         padding: 0 25px 0;
 
-        h2 {
-            font-size: 1.6em;
-        }
-
         img {
             width: 100%;
         }
@@ -153,6 +152,50 @@ button {
             width: 12px;
             height: 12px;
             border-radius: 100%;
+        }
+    }
+
+    .benefits {
+        margin-top: 80px;
+        padding: 0 25px;
+
+        h2 {
+            letter-spacing: 1px;
+        }
+
+        img {
+            width: 35%;
+            border: 1px solid e.$paragraph;
+            border-radius: 10%;
+            padding: 10px 4px 0;
+        }
+
+        p {
+            color: e.$paragraph;
+            font-size: 13px;
+            width: 85%;
+            line-height: 20px;
+        }
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 85%;
+        margin: 30px auto;
+
+        .card {
+            padding: 25px 10px 20px 25px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h3 {
+                letter-spacing: 0.5px;
+                margin-top: 5px;
+            }
         }
     }
 }

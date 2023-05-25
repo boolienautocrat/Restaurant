@@ -47,6 +47,10 @@ p {
         padding: 7px 30px;
     }
 
+    p {
+        font-size: 12px;
+    }
+
     header {
         padding: 20px 25px 10px;
         background-image: linear-gradient(to bottom,
@@ -265,6 +269,32 @@ p {
             width: 25%;
             height: 5px;
             background-color: e.$txt;
+        }
+    }
+    .testimonials {
+        margin-top: 70px;
+        padding:  0 25px;
+    }
+    .testimonial-wrapper {
+        width: 65%;
+        margin: 65px auto 0;
+        @include e.flex(50px, column)
+    }
+    .testimonial {
+        text-align: center;
+        align-items: center;
+        @include e.flex(8px, column);
+        img {
+            width: 55%;
+            border-radius: 100%;
+        }
+        span {
+            color: #f76f0c;
+            font-size: 20px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 18px;
         }
     }
 }

@@ -9,7 +9,6 @@
 body {
     font-family: Roboto;
     background-color: e.$prim;
-    padding-bottom: 100px;
 }
 
 h1 {
@@ -32,6 +31,10 @@ p {
     color: e.$paragraph;
 }
 
+a {
+    text-decoration: none;
+}
+
 .sec {
     background: e.$btn-sec;
     color: e.$txt;
@@ -43,17 +46,22 @@ p {
     }
 
     button {
-        width: 30%;
+        width: 40%;
         padding: 7px 30px;
+        border-radius: 5px;
     }
 
     p {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 22px;
+    }
+
+    section {
+        padding: 0 25px;
     }
 
     header {
-        padding: 20px 25px 10px;
+        padding: 30px 25px 10px;
         background-image: linear-gradient(to bottom,
                 #070706 100%,
                 #070706 70%,
@@ -84,7 +92,6 @@ p {
 
         p {
             font-size: 15px;
-            line-height: 22px;
             width: 80%;
             margin-top: 15px;
             color: #fff;
@@ -104,6 +111,11 @@ p {
             font-size: 10px;
             margin-top: 15px;
         }
+
+        button {
+            border-radius: 0;
+            width: 30%;
+        }
     }
 
     .menu {
@@ -122,9 +134,7 @@ p {
 
         button {
             margin-top: 10px;
-            border-radius: 6px;
             width: 40%;
-            padding: 12px 15px;
         }
     }
 
@@ -163,7 +173,6 @@ p {
 
     .benefits {
         margin-top: 80px;
-        padding: 0 25px;
 
         img {
             width: 35%;
@@ -197,7 +206,6 @@ p {
     }
 
     .features {
-        padding: 0 25px;
         margin-top: 50px;
 
         h2 {
@@ -266,7 +274,6 @@ p {
 
         p {
             font-size: 14px;
-            line-height: 22px;
             width: 90%;
         }
 
@@ -278,13 +285,12 @@ p {
     }
 
     .testimonials {
-        margin-top: 70px;
-        padding: 0 25px;
+        margin: 70px 0;
     }
 
     .testimonial-wrapper {
         width: 65%;
-        margin: 65px auto 0;
+        margin: 60px auto 0;
         @include e.flex(50px, column)
     }
 
@@ -311,8 +317,6 @@ p {
 
     .about-us {
         @include e.flex(25px, column);
-        margin-top: 50px;
-        padding: 0 25px;
 
         img {
             width: 96%;
@@ -320,13 +324,54 @@ p {
         }
 
         button {
-            padding: 8px 20px;
             width: 40%;
             border-radius: 5px;
         }
+
         p {
             width: 90%;
-            line-height: 22px;
+        }
+    }
+
+    .contact-us {
+        margin-top: 70px;
+        @include e.flex(15px, column);
+
+        img {
+            border: 2px solid #d5d5d5;
+            width: 100%;
+        }
+
+        h2,
+        button {
+            margin-top: 5px;
+        }
+    }
+    footer {
+        margin-top: 80px;
+        background-color: #ffd5d6;
+        padding: 30px 25px 0;
+        img {
+            width: 20%;
+        }
+        a {
+            color: e.$btn;
+            font-weight: 900;
+        }
+        &>p {
+            margin: 30px auto 10px;
+            text-align: center;
+        }
+    }
+    .socials {
+        width: 43%;
+        margin-top: 30px;
+        div {
+            @include e.flex(15px, row);
+            margin-top: 12px;
+        }
+        p {
+            margin-top: 10px;
         }
     }
 }

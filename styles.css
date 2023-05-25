@@ -27,7 +27,6 @@
 body {
   font-family: Roboto;
   background-color: #ffebec;
-  padding-bottom: 100px;
 }
 
 h1 {
@@ -50,6 +49,10 @@ p {
   color: #555555;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sec {
   background: #ffdddf;
   color: #252525;
@@ -60,15 +63,19 @@ p {
     font-size: 1.7rem;
   }
   button {
-    width: 30%;
+    width: 40%;
     padding: 7px 30px;
+    border-radius: 5px;
   }
   p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 22px;
+  }
+  section {
+    padding: 0 25px;
   }
   header {
-    padding: 20px 25px 10px;
+    padding: 30px 25px 10px;
     background-image: linear-gradient(to bottom, #070706 100%, #070706 70%, #070706 40%, #030a03 10%, #030a03 5%);
   }
   header nav {
@@ -90,7 +97,6 @@ p {
   }
   .hero p {
     font-size: 15px;
-    line-height: 22px;
     width: 80%;
     margin-top: 15px;
     color: #fff;
@@ -109,6 +115,10 @@ p {
     font-size: 10px;
     margin-top: 15px;
   }
+  .hero button {
+    border-radius: 0;
+    width: 30%;
+  }
   .menu {
     margin-top: 50px;
     padding: 0 25px 0;
@@ -125,9 +135,7 @@ p {
   }
   .items-wrapper button {
     margin-top: 10px;
-    border-radius: 6px;
     width: 40%;
-    padding: 12px 15px;
   }
   .item {
     background-color: #fff;
@@ -159,7 +167,6 @@ p {
   }
   .benefits {
     margin-top: 80px;
-    padding: 0 25px;
   }
   .benefits img {
     width: 35%;
@@ -191,7 +198,6 @@ p {
     margin-top: 5px;
   }
   .features {
-    padding: 0 25px;
     margin-top: 50px;
   }
   .features h2 {
@@ -257,7 +263,6 @@ p {
   }
   .cta p {
     font-size: 14px;
-    line-height: 22px;
     width: 90%;
   }
   .cta span {
@@ -266,12 +271,11 @@ p {
     background-color: #252525;
   }
   .testimonials {
-    margin-top: 70px;
-    padding: 0 25px;
+    margin: 70px 0;
   }
   .testimonial-wrapper {
     width: 65%;
-    margin: 65px auto 0;
+    margin: 60px auto 0;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -299,20 +303,59 @@ p {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-top: 50px;
-    padding: 0 25px;
   }
   .about-us img {
     width: 96%;
     border-radius: 3px;
   }
   .about-us button {
-    padding: 8px 20px;
     width: 40%;
     border-radius: 5px;
   }
   .about-us p {
     width: 90%;
-    line-height: 22px;
+  }
+  .contact-us {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contact-us img {
+    border: 2px solid #d5d5d5;
+    width: 100%;
+  }
+  .contact-us h2,
+  .contact-us button {
+    margin-top: 5px;
+  }
+  footer {
+    margin-top: 80px;
+    background-color: #ffd5d6;
+    padding: 30px 25px 0;
+  }
+  footer img {
+    width: 20%;
+  }
+  footer a {
+    color: #f76f0c;
+    font-weight: 900;
+  }
+  footer > p {
+    margin: 30px auto 10px;
+    text-align: center;
+  }
+  .socials {
+    width: 43%;
+    margin-top: 30px;
+  }
+  .socials div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 12px;
+  }
+  .socials p {
+    margin-top: 10px;
   }
 }

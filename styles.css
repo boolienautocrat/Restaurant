@@ -64,7 +64,8 @@ p {
     padding: 7px 30px;
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 20px;
   }
   header {
     padding: 20px 25px 10px;
@@ -293,5 +294,25 @@ p {
   .testimonial p {
     font-size: 13px;
     line-height: 18px;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+    padding: 0 25px;
+  }
+  .about-us img {
+    width: 96%;
+    border-radius: 3px;
+  }
+  .about-us button {
+    padding: 8px 20px;
+    width: 40%;
+    border-radius: 5px;
+  }
+  .about-us p {
+    width: 90%;
+    line-height: 22px;
   }
 }

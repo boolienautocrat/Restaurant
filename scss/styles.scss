@@ -48,7 +48,8 @@ p {
     }
 
     p {
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     header {
@@ -249,52 +250,83 @@ p {
             width: 106%;
         }
     }
+
     .cta {
         margin-top: 80px;
         padding: 40px 25px 30px;
         background-color: e.$sec;
         @include e.flex(15px, column);
+
         button {
             width: 45%;
             padding: 7px 18px;
             border-radius: 5px;
             margin-top: 10px;
         }
+
         p {
             font-size: 14px;
             line-height: 22px;
             width: 90%;
         }
+
         span {
             width: 25%;
             height: 5px;
             background-color: e.$txt;
         }
     }
+
     .testimonials {
         margin-top: 70px;
-        padding:  0 25px;
+        padding: 0 25px;
     }
+
     .testimonial-wrapper {
         width: 65%;
         margin: 65px auto 0;
         @include e.flex(50px, column)
     }
+
     .testimonial {
         text-align: center;
         align-items: center;
         @include e.flex(8px, column);
+
         img {
             width: 55%;
             border-radius: 100%;
         }
+
         span {
             color: #f76f0c;
             font-size: 20px;
         }
+
         p {
             font-size: 13px;
             line-height: 18px;
+        }
+    }
+
+    .about-us {
+        @include e.flex(25px, column);
+        margin-top: 50px;
+        padding: 0 25px;
+
+        img {
+            width: 96%;
+            border-radius: 3px;
+        }
+
+        button {
+            padding: 8px 20px;
+            width: 40%;
+            border-radius: 5px;
+        }
+        p {
+            width: 90%;
+            line-height: 22px;
         }
     }
 }

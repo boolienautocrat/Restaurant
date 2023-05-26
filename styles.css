@@ -373,6 +373,9 @@ a {
   .intro p {
     width: 93%;
   }
+  .intro h2 {
+    font-size: 2rem;
+  }
   .sourcing-ingredients {
     margin: 80px 0 90px;
   }

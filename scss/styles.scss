@@ -17,6 +17,7 @@ h1 {
 
 h2 {
     font-family: Lato;
+    color: #252525;
 }
 
 button {
@@ -348,31 +349,119 @@ a {
             margin-top: 5px;
         }
     }
+
     footer {
         margin-top: 80px;
         background-color: #ffd5d6;
         padding: 30px 6.948% 0;
+
         img {
             width: 20%;
         }
+
         a {
             color: e.$btn;
             font-weight: 900;
         }
+
         &>p {
             margin: 30px auto 10px;
             text-align: center;
         }
     }
+
     .socials {
         width: 43%;
         margin-top: 30px;
+
         div {
             @include e.flex(15px, row);
             margin-top: 12px;
         }
+
         p {
             margin-top: 10px;
         }
+    }
+
+    // About Us
+
+    .intro {
+        padding: 15% 8% 0;
+        @include e.flex(20px, column);
+
+        img {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        p {
+            width: 93%;
+        }
+    }
+
+    .sourcing-ingredients {
+        margin: 80px 0;
+
+        h2 {
+            // color: #000;
+            font-size: 1.6rem;
+        }
+    }
+
+    .wrapper {
+        margin: 40px 0 0;
+        @include e.flex(45px, row);
+
+        .text {
+            @include e.flex(85px, column);
+            div {
+                @include e.flex(7px, column);
+            }
+            img {
+                width: 35%;
+            }
+            h3 {
+                color: #252525;
+            }
+            p {
+                width: 93%;
+            }
+        }
+    }
+
+    .progress-bar {
+        width: 25%;
+        @include e.flex(0, column);
+        align-items: center;
+        margin-top: 50px;
+
+        span {
+            width: 18%;
+            height: 220px;
+            background-color: #aaaaaa;
+            display: block;
+            margin: -10px 0 0 0;
+            justify-content: center;
+        }
+    }
+
+    .circle {
+        background-color: #aaaaaa;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        @include e.flex(0, row);
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            color: #555;
+            font-weight: 900;
+        }
+    }
+
+    .totop {
+        margin-top: -10px;
     }
 }

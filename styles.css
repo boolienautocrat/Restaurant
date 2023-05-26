@@ -35,6 +35,7 @@ h1 {
 
 h2 {
   font-family: Lato;
+  color: #252525;
 }
 
 button {
@@ -358,5 +359,83 @@ a {
   }
   .socials p {
     margin-top: 10px;
+  }
+  .intro {
+    padding: 15% 8% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .intro img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .intro p {
+    width: 93%;
+  }
+  .sourcing-ingredients {
+    margin: 80px 0;
+  }
+  .sourcing-ingredients h2 {
+    font-size: 1.6rem;
+  }
+  .wrapper {
+    margin: 40px 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+  }
+  .wrapper .text {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+  }
+  .wrapper .text div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .wrapper .text img {
+    width: 35%;
+  }
+  .wrapper .text h3 {
+    color: #252525;
+  }
+  .wrapper .text p {
+    width: 93%;
+  }
+  .progress-bar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .progress-bar span {
+    width: 18%;
+    height: 220px;
+    background-color: #aaaaaa;
+    display: block;
+    margin: -10px 0 0 0;
+    justify-content: center;
+  }
+  .circle {
+    background-color: #aaaaaa;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle h2 {
+    color: #555;
+    font-weight: 900;
+  }
+  .totop {
+    margin-top: -10px;
   }
 }

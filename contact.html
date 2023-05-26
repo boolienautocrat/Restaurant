@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>*{margin:0;padding:0;box-sizing:border-box}body{margin:50px 0 0;padding:0 25px 0;font-family:'Roboto'}h2{font-size:1.7rem}form{margin:30px 0 0;display:flex;flex-direction:column;gap:20px;width:90%}label{color:#252525}form div{display:flex;flex-direction:column;gap:7px}form input,textarea{padding:5px;border:none;background-color:#ccc}textarea{font-family:Roboto}button{cursor:pointer;border:none;background:#f76f0c;color:#fff;font-weight:800;border-radius:5px;width:40%;padding:5px 0;margin-top:10px}a{text-decoration:none;color:inherit}.contact-us{margin:50px 0 30px}.contact-us>img{width:100%;border:2px solid #d5d5d5}.text{margin-top:30px;color:#252525}.text div{margin-bottom:15px;display:flex;flex-direction:row;gap:17px}.text div img{width:7%;cursor:pointer}</style>
+</head>
+
+<body>
+    <h2>Contact</h2>
+    <form>
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" name="Name" placeholder="John Doe" autocomplete="on" required>
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" placeholder="john@yoursite.com" autocomplete="on" required>
+        </div>
+        <div>
+            <label for="Feedback">Feedback</label>
+            <textarea name="Feedback" cols="30" rows="8" placeholder="Type your message here!"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+    <section class="contact-us">
+        <img src="./Images/location.png" alt="Location of a place in map">
+        <div class="text">
+            <div>
+                <img src="./Images/Icons/phone.svg" alt="Phone icon">
+                <p> <a href="tel:+91 65119 32508">(+91) 65119 32508</a></p>
+            </div>
+            <div>
+                <img src="./Images/Icons/envelope.svg" alt="E-mail icon">
+                <p> <a href="mailto:john@doe.com">john@doe.com</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

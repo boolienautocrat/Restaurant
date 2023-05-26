@@ -58,7 +58,7 @@ a {
     }
 
     section {
-        padding: 0 25px;
+        padding: 0 6.948%;
     }
 
     header {
@@ -93,7 +93,7 @@ a {
 
         p {
             font-size: 15px;
-            width: 80%;
+            width: 85%;
             margin-top: 15px;
             color: #fff;
         }
@@ -121,7 +121,7 @@ a {
 
     .menu {
         margin-top: 50px;
-        padding: 0 25px 0;
+        padding: 0 6.948% 0;
 
         img {
             width: 100%;
@@ -233,7 +233,7 @@ a {
             display: inline-block;
             width: 80px;
             height: 80px;
-            background: #FFC9FF;
+            background: #ffd5d6;
         }
 
         img {
@@ -262,7 +262,7 @@ a {
 
     .cta {
         margin-top: 80px;
-        padding: 40px 25px 30px;
+        padding: 40px 6.948% 30px;
         background-color: e.$sec;
         @include e.flex(15px, column);
 
@@ -351,7 +351,7 @@ a {
     footer {
         margin-top: 80px;
         background-color: #ffd5d6;
-        padding: 30px 25px 0;
+        padding: 30px 6.948% 0;
         img {
             width: 20%;
         }

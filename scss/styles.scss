@@ -401,29 +401,32 @@ a {
     }
 
     .sourcing-ingredients {
-        margin: 80px 0;
+        margin: 80px 0 90px;
 
         h2 {
-            // color: #000;
             font-size: 1.6rem;
         }
     }
 
     .wrapper {
-        margin: 40px 0 0;
-        @include e.flex(45px, row);
+        margin: 50px 0 0;
+        @include e.flex(60px, row);
 
         .text {
             @include e.flex(85px, column);
+
             div {
                 @include e.flex(7px, column);
             }
+
             img {
                 width: 35%;
             }
+
             h3 {
                 color: #252525;
             }
+
             p {
                 width: 93%;
             }
@@ -463,5 +466,27 @@ a {
 
     .totop {
         margin-top: -10px;
+    }
+
+    .special {
+        margin-bottom: 50px;
+        @include e.flex(30px, column);
+
+        h2 {
+            line-height: 36px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            width: 45%;
+        }
+
+        p {
+            font-size: 14.5px;
+            line-height: 23px;
+        }
     }
 }

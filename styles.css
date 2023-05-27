@@ -90,7 +90,7 @@ a {
   .hero {
     color: #fff;
     height: 600px;
-    background: url(/Images/hero.webp) no-repeat;
+    background: url(./Images/hero.webp) no-repeat;
     background-size: 100%;
     padding: 20% 0 0 6%;
   }

@@ -460,4 +460,84 @@ a {
     font-size: 14.5px;
     line-height: 23px;
   }
+  .item-list {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .item-list img {
+    width: 40%;
+    border-radius: 3px;
+  }
+  .item-list .item {
+    background-color: #e8ddee;
+    cursor: pointer;
+  }
+  .item-list .item .text div {
+    color: #3c3c3c;
+    background-color: #bbb;
+  }
+  .item-expanded {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ddd;
+    width: 85%;
+    margin: auto;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: none;
+    padding: 20px 15px 0;
+  }
+  .item-expanded h3 {
+    font-size: 1.3rem;
+  }
+  .item-expanded button {
+    width: 55%;
+  }
+  .item-expanded img {
+    width: 40%;
+  }
+  .item-expanded div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .item-expanded .text {
+    margin: 0;
+    align-items: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .item-expanded .text ul {
+    padding-left: 20px;
+  }
+  .item-expanded .text ul li {
+    font-size: 15px;
+    margin-top: 3px;
+  }
+  .item-expanded .text button {
+    width: 50%;
+  }
+  .item-expanded .text div {
+    margin: 0;
+  }
+  .item-expanded > img {
+    position: absolute;
+    width: 7%;
+    right: 10px;
+    top: 14px;
+    cursor: pointer;
+  }
+  .menu h2 {
+    font-size: 2rem;
+  }
 }

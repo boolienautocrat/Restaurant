@@ -68,7 +68,7 @@ a {
     width: 40%;
   }
   button {
-    padding: 7px 0;
+    padding: 9px 0;
     border-radius: 5px;
     width: 100%;
   }
@@ -349,7 +349,7 @@ a {
   footer {
     margin-top: 80px;
     background-color: #ffd5d6;
-    padding: 30px 6.948% 0;
+    padding: 30px 6.948% 10px;
   }
   footer img {
     width: 20%;
@@ -359,7 +359,7 @@ a {
     font-weight: 900;
   }
   footer > p {
-    margin: 30px auto 10px;
+    margin: 30px auto 0;
     text-align: center;
   }
   .socials {

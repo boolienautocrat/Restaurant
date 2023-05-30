@@ -207,7 +207,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 85%;
+    width: 80%;
     margin: 30px auto;
   }
   .card-wrapper .card {
@@ -371,6 +371,9 @@ a {
     flex-direction: row;
     gap: 15px;
     margin-top: 12px;
+  }
+  .socials div img {
+    cursor: pointer;
   }
   .socials p {
     margin-top: 10px;

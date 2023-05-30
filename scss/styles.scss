@@ -214,7 +214,7 @@ a {
 
     .card-wrapper {
         @include e.flex(25px, column);
-        width: 85%;
+        width: 80%;
         margin: 30px auto;
 
         .card {
@@ -391,6 +391,9 @@ a {
         div {
             @include e.flex(15px, row);
             margin-top: 12px;
+            img {
+                cursor: pointer;
+            }
         }
 
         p {

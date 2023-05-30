@@ -74,14 +74,30 @@ a {
                 #070706 40%,
                 #030a03 10%,
                 #030a03 5%);
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-        }
+        display: flex;
+        justify-content: space-between;
 
         img {
             width: 40px;
+            cursor: pointer;
+        }
+    }
+
+    .nav-links {
+        box-shadow: -50px 130px 50px 100px rgb(0 0 0 / 43%);
+        @include e.flex(30px, column);
+        background-color: #060606;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        width: 80%;
+        padding: 80px 30px;
+        display: none;
+        a {
+            color: #fff;
+            font-family: Lato;
+            font-size: 20px;
         }
     }
 

@@ -94,6 +94,7 @@ a {
         width: 80%;
         padding: 80px 30px;
         display: none;
+
         a {
             color: #fff;
             font-family: Lato;
@@ -119,19 +120,17 @@ a {
             color: #fff;
         }
 
+        .text {
+            flex-direction: column
+        }
+
         div {
             @include e.flex(10px, row);
-            margin-top: 25px;
-
-            p {
-                display: block;
-                font-size: 12px;
-            }
+            margin-top: 20px;
         }
 
         span {
             font-size: 10px;
-            margin-top: 15px;
         }
 
         a {
@@ -391,6 +390,7 @@ a {
         div {
             @include e.flex(15px, row);
             margin-top: 12px;
+
             img {
                 cursor: pointer;
             }
@@ -600,5 +600,56 @@ a {
 
     .menu h2 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    section,
+    .hero {
+        padding: 9% 10% 0;
+    }
+
+    nav {
+        width: 25%;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    .nav-links {
+        width: 100%;
+        padding: 0;
+        position: unset;
+        @include e.flex(10px, row)
+    }
+
+    .hero {
+        height: 700px;
+        background-image: url(/Images/hero1.webp);
+        background-position: 0 -200px;
+
+        .text {
+            width: 65%;
+            margin: 0;
+
+            div {
+                width: 60%;
+            }
+        }
+
+        h1 {
+            font-size: 3.2rem;
+        }
+
+        p {
+            width: 65%;
+            font-size: 17px;
+        }
     }
 }

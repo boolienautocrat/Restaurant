@@ -124,19 +124,17 @@ a {
     margin-top: 15px;
     color: #fff;
   }
+  .hero .text {
+    flex-direction: column;
+  }
   .hero div {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    margin-top: 25px;
-  }
-  .hero div p {
-    display: block;
-    font-size: 12px;
+    margin-top: 20px;
   }
   .hero span {
     font-size: 10px;
-    margin-top: 15px;
   }
   .hero a {
     width: 30%;
@@ -557,5 +555,48 @@ a {
   }
   .menu h2 {
     font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  section,
+  .hero {
+    padding: 9% 10% 0;
+  }
+  nav {
+    width: 25%;
+  }
+  .ham {
+    display: none;
+  }
+  .nav-links {
+    width: 100%;
+    padding: 0;
+    position: unset;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .hero {
+    height: 700px;
+    background-image: url(/Images/hero1.webp);
+    background-position: 0 -200px;
+  }
+  .hero .text {
+    width: 65%;
+    margin: 0;
+  }
+  .hero .text div {
+    width: 60%;
+  }
+  .hero h1 {
+    font-size: 3.2rem;
+  }
+  .hero p {
+    width: 65%;
+    font-size: 17px;
   }
 }
